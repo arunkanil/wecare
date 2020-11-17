@@ -107,7 +107,7 @@ p a:hover::after
 }
 ::selection
 {
-	background: #32c69a;
+	background: #01769F;
 	color: #FFFFFF;
 }
 p::selection
@@ -251,7 +251,7 @@ section
 {
 	width: 137px;
 	height: 54px;
-	background: #32c69a;
+	background: #01769F;
 	overflow: hidden;
 }
 .button a
@@ -389,7 +389,7 @@ section
 {
 	position: relative;
 	font-size: 36px;
-	color: #32c69a;
+	color: #01769F;
 	line-height: 0.75;
 	vertical-align: text-top;
 }
@@ -416,7 +416,7 @@ section
 }
 .header_top_nav ul li a:hover
 {
-	color: #32c69a;
+	color: #01769F;
 }
 .header_top_phone
 {
@@ -425,7 +425,7 @@ section
 .header_top_phone i
 {
 	font-size: 22px;
-	color: #32c69a;
+	color: #01769F;
 	vertical-align: middle;
 	transform: translateY(-1px);
 }
@@ -467,7 +467,7 @@ section
 .header_nav_container
 {
 	z-index: 1;
-	background: #32c69a;
+	background: #01769F;
 }
 .header_nav_content
 {
@@ -839,7 +839,7 @@ section
 	line-height: 54px;
 	text-align: center;
 	color: #FFFFFF;
-	background: #32c69a;
+	background: #01769F;
 	padding-left: 17px;
 	padding-right: 19px;
 }
@@ -994,7 +994,7 @@ section
 .tab:hover,
 .tab.active
 {
-	background: #32c69a;
+	background: #01769F;
 }
 .tab:hover .tab_title,
 .tab:hover .tab_text,
@@ -1200,7 +1200,7 @@ section
 {
 	width: 275px;
 	height: 54px;
-	background: #32c69a;
+	background: #01769F;
 	border: none;
 	outline: none;
 	cursor: pointer;
@@ -1267,7 +1267,7 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #32c69a;
+	color: #01769F;
 }
 .footer_links
 {
@@ -1296,18 +1296,18 @@ section
 }
 .footer_links ul li a:hover
 {
-	color: #32c69a;
+	color: #01769F;
 }
 .footer_phone span
 {
 	font-size: 14px;
 	font-weight: 600;
-	color: #32c69a;
+	color: #01769F;
 }
 .footer_phone i
 {
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 20px;
-	color: #32c69a;
+	color: #01769F;
 }

@@ -110,7 +110,7 @@ p a:hover::after
 }
 ::selection
 {
-	background: #32c69a;
+	background: #01769F;
 	color: #FFFFFF;
 }
 p::selection
@@ -254,7 +254,7 @@ section
 {
 	width: 137px;
 	height: 54px;
-	background: #32c69a;
+	background: #01769F;
 	overflow: hidden;
 }
 .button a
@@ -384,7 +384,7 @@ section
 {
 	position: relative;
 	font-size: 36px;
-	color: #32c69a;
+	color: #01769F;
 	line-height: 0.75;
 	vertical-align: text-top;
 }
@@ -411,7 +411,7 @@ section
 }
 .header_top_nav ul li a:hover
 {
-	color: #32c69a;
+	color: #01769F;
 }
 .header_top_phone
 {
@@ -420,7 +420,7 @@ section
 .header_top_phone i
 {
 	font-size: 22px;
-	color: #32c69a;
+	color: #01769F;
 	vertical-align: middle;
 	transform: translateY(-1px);
 }
@@ -462,7 +462,7 @@ section
 .header_nav_container
 {
 	z-index: 1;
-	background: #32c69a;
+	background: #01769F;
 }
 .header_nav_content
 {
@@ -997,7 +997,7 @@ section
 {
 	width: 100%;
 	height: 54px;
-	background: #32c69a;
+	background: #01769F;
 	border: none;
 	outline: none;
 	color: #FFFFFF;
@@ -1168,7 +1168,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 4px;
-	background: #32c69a;
+	background: #01769F;
 	content: '';
 }
 .dept_title
@@ -1194,7 +1194,7 @@ section
 }
 .dept_link a:hover
 {
-	color: #32c69a;
+	color: #01769F;
 }
 .dept_slider_nav
 {
@@ -1208,7 +1208,7 @@ section
 	right: -106px;
 	width: 42px;
 	height: 42px;
-	background: #32c69a;
+	background: #01769F;
 	text-align: center;
 	cursor: pointer;
 }
@@ -1312,7 +1312,7 @@ section
 	width: 50px;
 	height: 100%;
 	content: '+';
-	background: #32c69a;
+	background: #01769F;
 	font-size: 14px;
 	color: #FFFFFF;
 	font-weight: 500;
@@ -1324,7 +1324,7 @@ section
 }
 .accordion.active
 {
-	background: #32c69a;
+	background: #01769F;
 	color: #FFFFFF;
 }
 .accordion.active::after
@@ -1416,7 +1416,7 @@ section
 }
 .latest_title a:hover
 {
-	color: #32c69a;
+	color: #01769F;
 }
 .latest_info
 {
@@ -1448,7 +1448,7 @@ section
 }
 .latest_info ul li a:hover
 {
-	color: #32c69a;
+	color: #01769F;
 }
 .latest_comments
 {
@@ -1458,7 +1458,7 @@ section
 {
 	font-size: 12px;
 	font-weight: 500;
-	color: #32c69a;
+	color: #01769F;
 }
 
 /*********************************
@@ -1585,7 +1585,7 @@ section
 {
 	width: 275px;
 	height: 54px;
-	background: #32c69a;
+	background: #01769F;
 	border: none;
 	outline: none;
 	cursor: pointer;
@@ -1652,7 +1652,7 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #32c69a;
+	color: #01769F;
 }
 .footer_links
 {
@@ -1681,18 +1681,18 @@ section
 }
 .footer_links ul li a:hover
 {
-	color: #32c69a;
+	color: #01769F;
 }
 .footer_phone span
 {
 	font-size: 14px;
 	font-weight: 600;
-	color: #32c69a;
+	color: #01769F;
 }
 .footer_phone i
 {
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 20px;
-	color: #32c69a;
+	color: #01769F;
 }

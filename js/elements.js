@@ -246,7 +246,7 @@ $(document).ready(function()
 		    	{
 		    		var bar = new ProgressBar.Circle(loader,
 					{
-						color: '#32c69a',
+						color: '#01769F',
 						// This has to be the same size as the maximum width to
 						// prevent clipping
 						strokeWidth: 3,
@@ -258,8 +258,8 @@ $(document).ready(function()
 						{
 							autoStyleContainer: false
 						},
-						from:{ color: '#32c69a', width: 3 },
-						to: { color: '#32c69a', width: 3 },
+						from:{ color: '#01769F', width: 3 },
+						to: { color: '#01769F', width: 3 },
 						// Set default step function for all animate calls
 						step: function(state, circle)
 						{
