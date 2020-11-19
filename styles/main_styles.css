@@ -242,10 +242,22 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
+	background-image:url("./../images/Movember-04.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-position: center center;
 }
+@media screen and (max-width: 767px) {   
+    .background_image{
+    	background-image: url("./../images/Movember-04.jpg");
+    } 
+}
+
+@media screen and (min-width: 768px) {      
+    .background_image{      
+    	background-image: url("./../images/cover.jpg");
+    } 
+} 
 .nopadding
 {
 	padding: 0px !important;
