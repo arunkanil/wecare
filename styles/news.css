@@ -535,7 +535,7 @@ section {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: rgba(50, 198, 154, 0.95);
+  background: #01769F;
   z-index: 101;
   opacity: 0;
   visibility: hidden;
