@@ -179,7 +179,9 @@
 
 @media only screen and (max-width: 959px)
 {
-	
+	.insurance_logo {
+		width: 100px;
+	}
 }
 
 /************
