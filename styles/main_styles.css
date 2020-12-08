@@ -247,16 +247,29 @@ section
 	background-size: contain;
 	background-position: center center;
 }
+
 @media screen and (max-width: 767px) {   
     .background_image{
     	background-image: url("./../images/wecare\ mobilepage2.jpg");
-    } 
+	}
+	.small_carousel_displayer{
+		display: block;
+	}
+	.large_carousel_displayer {
+		display: none;
+	}
 }
 
 @media screen and (min-width: 768px) {      
     .background_image{      
     	background-image: url("./../images/cover.jpg");
-    } 
+	}
+	.small_carousel_displayer {
+		display: none;
+	}
+	.large_carousel_displayer {
+		display: block;
+	}
 } 
 .nopadding
 {
