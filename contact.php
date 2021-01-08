@@ -55,8 +55,7 @@
 		<!-- Home -->
 
 		<div class="home">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/contact.jpg"
-				data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/contact.jpg" data-speed="0.8"></div>
 
 			<!-- Header -->
 
@@ -66,15 +65,13 @@
 						<div class="container">
 							<div class="row">
 								<div class="col">
-									<div
-										class="header_top_content d-flex flex-row align-items-center justify-content-start">
+									<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
 										<a href="index.html">
 											<div class="logo">
 												<img style="width: 280px;" src="images/logo.png" alt="logo">
 											</div>
 										</a>
-										<div
-											class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
+										<div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
 											<div class="header_top_nav">
 												<ul class="d-flex flex-row align-items-center justify-content-start">
 													<!-- <li><a href="#">Help Desk</a></li>
@@ -102,11 +99,9 @@
 								<div class="container">
 									<div class="row">
 										<div class="col">
-											<div
-												class="header_nav_content d-flex flex-row align-items-center justify-content-start">
+											<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
 												<nav class="main_nav">
-													<ul
-														class="d-flex flex-row align-items-center justify-content-start">
+													<ul class="d-flex flex-row align-items-center justify-content-start">
 														<li><a href="index.html">Home</a></li>
 														<li><a href="about.html">About</a></li>
 														<li><a href="services.html">Departments</a></li>
@@ -118,8 +113,7 @@
 														<li class="active"><a href="contact.html">Contact</a></li>
 													</ul>
 												</nav>
-												<div
-													class="search_content d-flex flex-row align-items-center justify-content-end ml-auto">
+												<div class="search_content d-flex flex-row align-items-center justify-content-end ml-auto">
 													<!-- <form action="#" id="search_container_form" class="search_container_form">
 													<input type="text" class="search_container_input" placeholder="Search" required="required">
 													<button class="search_container_button"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -160,20 +154,15 @@
 							<div class="contact_title">Get in touch</div>
 							<div class="contact_form_container">
 								<form action="#" id="contact_form" class="contact_form">
-									<input type="text" id="contact_input" class="contact_input" placeholder="Your Name"
-										required="required">
-									<input type="email" id="contact_email" class="contact_input"
-										placeholder="Your E-mail" required="required">
-									<input type="number" id="contact_number" class="contact_input"
-										placeholder="Your Phone" required="required">
-									<select name="contact_type" id="contact_type" class="contact_input mb-4">
+									<input type="text" id="contact_name" name="contact_name" class="contact_input" placeholder="Your Name" required="required">
+									<input type="email" id="contact_email" name="contact_email" class="contact_input" placeholder="Your E-mail" required="required">
+									<input type="number" id="contact_number" name="contact_number" class="contact_input" placeholder="Your Phone" required="required">
+									<select id="contact_type" name="contact_type" class="contact_input mb-4">
 										<option value="corporate">Corporate</option>
 										<option selected value="personal">Personal</option>
 									</select>
-									<input type="text" id="contact_subject" class="contact_input" placeholder="Subject"
-										required="required">
-									<textarea class="contact_input contact_textarea" id="contact_textarea"
-										placeholder="Message" required="required"></textarea>
+									<input type="text" id="contact_subject" name="contact_subject" class="contact_name" placeholder="Subject" required="required">
+									<textarea class="contact_input contact_textarea" id="contact_message" name="contact_message" placeholder="Message" required="required"></textarea>
 									<button class="contact_button" id="contact_button">send message</button>
 								</form>
 							</div>
@@ -255,10 +244,7 @@
 					</div>
 				</div> -->
 				<div class="map">
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.5350380959344!2d55.306743566684304!3d25.252581022658738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE1JzA5LjMiTiA1NcKwMTgnMjkuOSJF!5e0!3m2!1sen!2sin!4v1609758068213!5m2!1sen!2sin"
-						width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
-						aria-hidden="false" tabindex="0"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.5350380959344!2d55.306743566684304!3d25.252581022658738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE1JzA5LjMiTiA1NcKwMTgnMjkuOSJF!5e0!3m2!1sen!2sin!4v1609758068213!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				</div>
 			</div>
 		</div>
@@ -266,8 +252,7 @@
 		<!-- Footer -->
 
 		<footer class="footer">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/footer.jpg"
-				data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/footer.jpg" data-speed="0.8"></div>
 			<div class="footer_content">
 				<div class="container">
 					<div class="row">
@@ -282,15 +267,9 @@
 									patient-centered healthcare close to you.</div>
 								<div class="footer_social">
 									<ul class="d-flex flex-row align-items-center justify-content-start">
-										<li><a target="_blank"
-												href="https://instagram.com/wecaremedicalcenter?igshid=1q6u25hfgumym"><i
-													class="fa fa-instagram" aria-hidden="true"></i></a></li>
-										<li><a target="_blank"
-												href="https://www.facebook.com/Wecaremedicalcentre-107028777819328"><i
-													class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a target="_blank"
-												href="https://wa.me/+971544826861?text=I'm%20interested%20in%20getting%20an%20appointment%20at%20WeCare."><i
-													class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+										<li><a target="_blank" href="https://instagram.com/wecaremedicalcenter?igshid=1q6u25hfgumym"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+										<li><a target="_blank" href="https://www.facebook.com/Wecaremedicalcentre-107028777819328"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a target="_blank" href="https://wa.me/+971544826861?text=I'm%20interested%20in%20getting%20an%20appointment%20at%20WeCare."><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
 									</ul>
 								</div>
 								<!-- <div class="copyright">
@@ -332,11 +311,9 @@
 				<div class="container">
 					<div class="row">
 						<div class="col">
-							<div
-								class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
+							<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
 								<nav class="footer_nav">
-									<ul
-										class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+									<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
 										<li class="active"><a href="index.html">Home</a></li>
 										<li><a href="about.html">About</a></li>
 										<li><a href="services.html">Departments</a></li>
