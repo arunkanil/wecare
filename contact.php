@@ -153,7 +153,7 @@
 						<div class="contact_form">
 							<div class="contact_title">Get in touch</div>
 							<div class="contact_form_container">
-								<form action="#" id="contact_form" class="contact_form">
+								<form method="post" name="contactform" id="contactform" class="contact_form">
 									<input type="text" id="contact_name" name="contact_name" class="contact_input" placeholder="Your Name" required="required">
 									<input type="email" id="contact_email" name="contact_email" class="contact_input" placeholder="Your E-mail" required="required">
 									<input type="number" id="contact_number" name="contact_number" class="contact_input" placeholder="Your Phone" required="required">
@@ -163,7 +163,7 @@
 									</select>
 									<input type="text" id="contact_subject" name="contact_subject" class="contact_name" placeholder="Subject" required="required">
 									<textarea class="contact_input contact_textarea" id="contact_message" name="contact_message" placeholder="Message" required="required"></textarea>
-									<button class="contact_button" id="contact_button">send message</button>
+									<button type="submit" class="contact_button" id="contact_button">send message</button>
 								</form>
 							</div>
 						</div>
