@@ -144,7 +144,7 @@
                     <div class="col-lg-10 info_box_col">
                         <div class="info_form_container">
                             <div class="info_form_title text-center">Make an Appointment</div>
-                            <form action="#" class="info_form" id="info_form">
+                            <form id="appointment_form" method="POST" action="appointment_submit.php" class="info_form" id="info_form">
                                 <select name="info_form_dep" id="info_form_dep"
                                     class="info_form_dep info_input info_select">
                                     <option value="" selected hidden>Choose Department...</option>
@@ -187,10 +187,10 @@
                                     <option value="Dr. Ranjith Venkitachalam">Dr. Ranjith Venkitachalam</option>
                                     <option value="Dr. Shashikant Jadhav">Dr. Shashikant Jadhav</option>
                                 </select>
-                                <input type="text" class="info_input" placeholder="Name" required>
-                                <input type="text" class="info_input" placeholder="Phone No" required>
-                                <input type="date" class="info_input" placeholder="Date" required>
-                                <input type="time" class="info_input" placeholder="Time">
+                                <input type="text" class="info_input" name="info_form_name" id="info_form_name" placeholder="Name" required>
+                                <input type="text" class="info_input" name="info_form_phone" id="info_form_phone" placeholder="Phone No" required>
+                                <input type="date" class="info_input" name="info_form_date" id="info_form_date" placeholder="Date" required>
+                                <input type="time" class="info_input" name="info_form_time" id="info_form_time" placeholder="Time">
                                 <select name="info_form_insurance" id="info_form_insurance"
                                     class="info_form_doc info_input info_select">
                                     <option value="" selected hidden>Choose Insurance...</option>
@@ -218,7 +218,7 @@
 
                                 </select>
                                 <div class="text-center">
-                                    <button class="info_form_button" style="width: 50%;">make an appointment</button>
+                                    <button class="info_form_button" id="submit" style="width: 50%;">make an appointment</button>
                                 </div>
                             </form>
                         </div>

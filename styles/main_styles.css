@@ -1721,3 +1721,16 @@ section
 	font-size: 20px;
 	color: #01769F;
 }
+.BioTabGreen {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+    padding: 10px 20px;
+    line-height: 26px;
+    color: #01769F;
+    border: 1px solid #01769F;
+    border-radius: 30px;
+	margin: 10px 5px;
+	text-align:center;
+	margin-top:30px;
+}

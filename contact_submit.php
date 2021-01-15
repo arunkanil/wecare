@@ -1,8 +1,8 @@
 <?php
 
 $to = 'kanil.arun1@gmail.com';
-$subject = 'New Appointment request from wecaremedicalcentre.com';
-$from = 'appointments@wecaremedicalcenter.ae';
+$subject = 'New Contact request from wecaremedicalcentre.com';
+$from = 'contacts@wecaremedicalcenter.ae';
 $cc = "arunkanil1994@gmail.com";
 
 // To send HTML mail, the Content-type header must be set
@@ -32,7 +32,7 @@ $message .= '</body></html>';
 
 // Sending email
 if(mail($to, $subject, $message, $headers)){
-    echo 200;
+    header('Location: thank-you.html');;
 } else{
     echo 'Unable to send email. Please try again.';
 }
