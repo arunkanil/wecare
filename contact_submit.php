@@ -1,8 +1,8 @@
 <?php
 
 $to = 'kanil.arun1@gmail.com';
-$subject = 'Mail alert from wecaremedicalcentre.com';
-$from = 'hello@untanglestrategy.com';
+$subject = 'New Appointment request from wecaremedicalcentre.com';
+$from = 'appointments@wecaremedicalcenter.ae';
 $cc = "arunkanil1994@gmail.com";
 
 // To send HTML mail, the Content-type header must be set
@@ -19,7 +19,7 @@ $headers .= 'From: '.$from."\r\n".
 
 // Compose a simple HTML email message
 $message = '<html><body>';
-$message .= '<h3>wecare Contact</h3>';
+$message .= '<h3>Wecare Contact</h3>';
 $message .= '<p>Name : '.$_POST["contact_name"].'</p>';
 $message .= '<p>Email : '.$_POST["contact_email"].'</p>';
 $message .= '<p>Phone No. : '.$_POST["contact_number"].'</p>';
