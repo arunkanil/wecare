@@ -46,7 +46,7 @@
             <div class="menu_social">
                 <ul>
                     <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook" style="font-size: 25px;" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
@@ -346,6 +346,7 @@
                             <form action="#" class="info_form" id="info_form">
                                 <select name="info_form_dep" id="info_form_dep"
                                     class="info_form_dep info_input info_select">
+                                    <option value="" selected hidden>Choose Department...</option>
                                     <option value="General medicine">General medicine</option>
                                     <option value="General surgery">General surgery</option>
                                     <option value="Internal medicine">Internal medicine</option>
@@ -361,6 +362,7 @@
                                 </select>
                                 <select name="info_form_doc" id="info_form_doc"
                                     class="info_form_doc info_input info_select">
+                                    <option value="" selected hidden>Choose Doctor...</option>
                                     <option value="Dr. Neeraja Gandhi Anbu Ganesan">Dr. Neeraja Gandhi Anbu Ganesan
                                     </option>
                                     <option value="Dr. Ekramulla Mohamed Ali">Dr. Ekramulla Mohamed Ali</option>
@@ -388,6 +390,32 @@
                                 <input type="text" class="info_input" placeholder="Phone No" required>
                                 <input type="date" class="info_input" placeholder="Date" required>
                                 <input type="time" class="info_input" placeholder="Time">
+                                <select name="info_form_insurance" id="info_form_insurance"
+                                    class="info_form_doc info_input info_select">
+                                    <option value="" selected hidden>Choose Insurance...</option>
+                                    <option value="AAFIYA">AAFIYA</option>
+                                    <option value="ADNIC">ADNIC</option>
+                                    <option value="AL BUHAIRA INSURANCE">AL BUHAIRA INSURANCE</option>
+                                    <option value="ALMADALLAH HEALTHCARE MANAGEMENT">ALMADALLAH HEALTHCARE MANAGEMENT
+                                    </option>
+                                    <option value="AXA">AXA</option>
+                                    <option value="DUBAICARE">DUBAICARE</option>
+                                    <option value="INAYAH">INAYAH</option>
+                                    <option value="IRIS">IRIS</option>
+                                    <option value="MEDNET">MEDNET</option>
+                                    <option value="METLIFE ALICO">METLIFE ALICO</option>
+                                    <option value="MSH UAE">MSH UAE</option>
+                                    <option value="NAS">NAS</option>
+                                    <option value="NEURON">NEURON</option>
+                                    <option value="NEXTCARE">NEXTCARE</option>
+                                    <option value="NEXTCARE - ALLIANZ">NEXTCARE - ALLIANZ</option>
+                                    <option value="NOWHEALTH">NOWHEALTH</option>
+                                    <option value="OMAN – OIC">OMAN – OIC</option>
+                                    <option value="SAICO UAE">SAICO UAE</option>
+                                    <option value="VIDAL HEALTH">VIDAL HEALTH</option>
+                                    <option value="WHEALTH INTERNATIONAL">WHEALTH INTERNATIONAL</option>
+
+                                </select>
                                 <button class="info_form_button">make an appointment</button>
                             </form>
                         </div>
@@ -760,13 +788,16 @@
                                 <ul class="d-flex flex-row align-items-center justify-content-start">
                                     <li><a target="_blank"
                                             href="https://instagram.com/wecaremedicalcenter?igshid=1q6u25hfgumym"><i
-                                                class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                class="fa fa-instagram" style="font-size: 25px;"
+                                                aria-hidden="true"></i></a></li>
                                     <li><a target="_blank"
                                             href="https://www.facebook.com/Wecaremedicalcentre-107028777819328"><i
-                                                class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                class="fa fa-facebook" style="font-size: 25px;"
+                                                aria-hidden="true"></i></a></li>
                                     <li><a target="_blank"
                                             href="https://wa.me/+971544826861?text=I'm%20interested%20in%20getting%20an%20appointment%20at%20WeCare."><i
-                                                class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                                class="fa fa-whatsapp" style="font-size: 25px;"
+                                                aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
                             <!-- <div class="copyright">
@@ -782,7 +813,7 @@
 
 
                     <!-- Footer Hours -->
-                    <div class="col-lg-4 footer_col">
+                    <div class="col-lg-4 footer_col" style="margin-top: 40px;">
                         <div class="footer_hours">
                             <div class="footer_hours_title">Opening Hours</div>
                             <ul class="hours_list">
