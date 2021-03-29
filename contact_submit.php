@@ -1,9 +1,9 @@
 <?php
 
-$to = 'reception@wecaremedicalcenter.ae';
+$to = 'appointments@wecaremedicalcentre.com';
 $subject = 'New Contact request from wecaremedicalcentre.com';
 $from = 'contacts@wecaremedicalcenter.ae';
-$cc = "appointments@wecaremedicalcentre.com";
+$cc = "marketing@wecaremedicalcentre.com";
 
 // To send HTML mail, the Content-type header must be set
 $headers  = 'MIME-Version: 1.0' . "\r\n";
